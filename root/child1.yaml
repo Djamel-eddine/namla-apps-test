@@ -14,7 +14,7 @@ spec:
       jsonnet: {}
       recurse: true
     path: root
-    repoURL: http://10.0.1.100:8000/git/namla/namla.git
+    repoURL: https://github.com/Djamel-eddine/namla-apps-test.git
     targetRevision: HEAD
   syncPolicy:
     automated:
