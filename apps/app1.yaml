@@ -12,5 +12,5 @@ spec:
   project: default
   source:
     path: app1
-    repoURL: http://10.0.1.100:8000/git/namla/namla-apps.git
+    repoURL: https://github.com/Djamel-eddine/namla-apps-test.git
     targetRevision: HEAD
