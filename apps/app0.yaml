@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: app1-test
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: app1-test
+    name: app1-test1
+  project: default
+  source:
+    path: app1
+    repoURL: http://10.0.1.100:8000/git/namla/namla-apps.git
+    targetRevision: HEAD
