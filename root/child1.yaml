@@ -13,7 +13,7 @@ spec:
       exclude: '*.json'
       jsonnet: {}
       recurse: true
-    path: root
+    path: child-app1
     repoURL: https://github.com/Djamel-eddine/namla-apps-test.git
     targetRevision: HEAD
   syncPolicy:
