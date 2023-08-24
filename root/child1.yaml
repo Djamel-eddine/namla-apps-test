@@ -3,8 +3,7 @@ kind: Application
 metadata:
   name: child-app4
   namespace: argocd
-  annotations:
-    argocd.argoproj.io/hook: test
+
 spec:
   destination:
     namespace: default
