@@ -5,4 +5,4 @@ namespace: argocd
 namePrefix: testapp-
 
 resources:
-  - deployment.yaml
+  - ./deployment.yaml
