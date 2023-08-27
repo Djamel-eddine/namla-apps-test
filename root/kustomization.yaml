@@ -1,5 +1,4 @@
 namePrefix: testApp-
 
 resources:
-  - ../kusto/service.yaml
   - ../kusto/deployment.yaml
