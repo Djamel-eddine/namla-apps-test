@@ -5,4 +5,4 @@ namespace: default
 namePrefix: testapp-
 
 resources:
-  - ./deployment.yaml
+  - ./kusto/deployment.yaml
