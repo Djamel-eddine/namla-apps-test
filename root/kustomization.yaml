@@ -1,5 +1,8 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-namespace: cert-manager
+
+namespace: default
+namePrefix: testapp-
+
 resources:
-  - github.com/Djamel-eddine/namla-apps-test/blob/main/child-app-4/dep.yaml
+  - ../kusto/deployment.yaml
