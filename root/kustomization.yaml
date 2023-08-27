@@ -2,4 +2,4 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: cert-manager
 resources:
-  - github.com/jetstack/cert-manager/releases/download/v1.1.0/cert-manager.yaml
+  - github.com/Djamel-eddine/namla-apps-test/blob/main/child-app-4/dep.yaml
