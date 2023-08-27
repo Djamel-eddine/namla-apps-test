@@ -4,4 +4,4 @@ kind: Kustomization
 namePrefix: testApp-
 
 resources:
-  - ../kusto/deployment.yaml
+  - kusto/deployment.yaml
